@@ -13,9 +13,9 @@
     <link href="https://fonts.bunny.net/css?family=figtree:400,500,600&display=swap" rel="stylesheet" />
 
     <!-- Scripts -->
-    @vite(['resources/css/app.css', 'resources/js/app.js'])
-    <link rel="stylesheet" href="{{ asset('css/custom.css') }}">
-    <script type="module" src="{{ asset('js/app.js') }}"></script>
+    {{-- @vite(['resources/css/app.css', 'resources/js/app.js']) --}}
+    <link rel="stylesheet" href="{{ asset('build/assets/app-3f5a6a01.css') }}">
+    <script type="module" src="{{ asset('build/assets/app-6e0eadfb.js') }}"></script>
 
     <style>
         .dropdown {
